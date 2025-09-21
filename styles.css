@@ -1,0 +1,49 @@
+.nature{
+    width: 450px;
+    height: 800px;
+   
+    border-radius: 0 20px 20px 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.opacity{
+     position: absolute;
+  top: 180px;
+  left: 0;
+  width:450px;
+  height: 170px;
+  background: rgba(0,0,0,0.5);
+  z-index: index 1;
+}
+.logo{
+    position: absolute;
+   
+    top: 205px;
+    left: 75px;
+    width: 80px;
+    z-index: 2;
+}
+.odin{
+    font-family: Tektur, sans-serif;
+    
+    font-size: 80px;
+    color:aliceblue;
+    position:absolute;
+     top: 130px;
+    left: 180px;
+
+}
+.flexbox{
+    display: flex;
+    
+    gap: 20px;
+   
+}
+.text{
+   padding-top: 150px;
+    font-family: cinzel, serif;
+    font-size: 35px;
+    background-color: rgb(211, 225, 225);
+}
