@@ -15,7 +15,7 @@ body{
   width:450px;
   height: 170px;
   background: rgba(0,0,0,0.5);
-  z-index: index 1;
+  z-index: 1;
 }
 .logo{
     position: absolute;
@@ -42,7 +42,7 @@ body{
    
 }
 .text{
-   padding-top: 200px;
+   padding-top: 80px;
    padding-left: 20px;
     font-family: cinzel, serif;
     font-size: 35px;
@@ -51,7 +51,7 @@ body{
 .form{
     display:flex;
     gap:40px;
-    padding:80px;
+    padding:30px;
     font-family: cinzel, serif;
 }
 h2{
@@ -65,4 +65,19 @@ h2{
     font-family: cinzel, serif;
     background-color: rgb(135, 184, 102);
     border: none;
+}
+.signup{
+    font-weight:500;
+    color: green;
+}
+input {
+  border: 1px solid #E5E7EB;  /* default light border */
+  padding: 8px;
+  border-radius: 4px;
+}
+
+
+/* turns border red when input is invalid */
+input:invalid {
+  border-color: red;
 }
